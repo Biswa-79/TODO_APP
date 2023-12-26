@@ -1,0 +1,63 @@
+html{
+    box-sizing: border-box;
+
+}
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+:root{
+    --light-gray:#7284a1
+}
+.input-section{
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.todo-input{
+    /* width: 60%; */
+    flex-basis: 60%;
+}
+.list-todo-heading{
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.list-todo-heading >div{
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+.todo-no{
+    flex-basis: 3%;
+}
+.todo-detail{
+    flex-basis: 55%;
+}
+.todo-status{
+    flex-basis: 10%;
+}
+.todo-action{
+    flex-basis: 15%;
+    gap: 1rem;
+}
+.todo-action button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.todo-item{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--light-gray);
+}
+.todo-item .todo-no{
+    color: black;
+    margin-bottom: 1.6rem;
+}
+hr{
+    
+    border: 2px solid green;
+    
+    opacity: 0.1;
+}
+.save-todo{
+    cursor: pointer;
+}
